@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "mocha",
+    "chai-expect"
+  ],
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "prefer-spread": 0,
+    "mocha/no-global-tests": 1,
+    "react/require-extension": "off"
+  }
+}
